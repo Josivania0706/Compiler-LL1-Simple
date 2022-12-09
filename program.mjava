@@ -5,6 +5,13 @@ comentario*/
 
 // este é outro comentario
 
+/*//esse 
+é 
+um 
+comentario*/
+
+// este é outro comentario
+
 class Factorial{
     public static void main(String[] a){
         System.out.println(new Fac().ComputeFac(10));
@@ -12,15 +19,21 @@ class Factorial{
 }
 
 class Fac {
-    public int ComputeFac(int num){
-        int numaux;
-        if (num < 157)
-            num_aux = 1;
-            else
-            num_aux = num * (this.ComputeFac(num-1));
-            return num_aux;
+                        public int ComputeFac(int num){
+                            int numaux;
+                            if (num < 157)
+                                num_aux = 1;
+                                else
+                                num_aux = num * (this.ComputeFac(num-1));
+                                return num_aux;
     }
 }
+/*//esse 
+é 
+um 
+comentario*/
+
+// este é outro comentario
 
 class Fac2 extends outraFuncao{
     public int ComputeFac(int num){
