@@ -10,8 +10,9 @@ def main(argv):
     stream = lexer.getOutput()
     print("Output", stream) 
     parser = Grammar(stream)
+    
     parser.prog()
     input_.close()
-    
+    print("Oii")
 if __name__=="__main__":
     main(sys.argv)
